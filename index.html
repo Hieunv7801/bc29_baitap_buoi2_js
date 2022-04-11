@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Tính lương -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header">
+                        TÍNH LƯƠNG NHÂN VIÊN
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="my-input">Nhập vào số ngày làm của bạn</label>
+                            <input id="songay" class="form-control" type="text" name="">
+                        </div>
+                        <button id="luong" class="btn btn-success">LƯƠNG</button>
+                    </div>
+                    <div class="card-footer text-muted" id="soluong"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <hr>
+    <!-- Tính giá trị trung bình -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header">
+                        TÍNH GIÁ TRỊ TRUNG BÌNH
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="my-input">Số thứ 1</label>
+                            <input id="number1" class="form-control" type="text" name="">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Số thứ 2</label>
+                            <input id="number2" class="form-control" type="text" name="">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Số thứ 3</label>
+                            <input id="number3" class="form-control" type="text" name="">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Số thứ 4</label>
+                            <input id="number4" class="form-control" type="text" name="">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Số thứ 5</label>
+                            <input id="number5" class="form-control" type="text" name="">
+                        </div>
+                        <button class="btn btn-success" id="btnTB">Tính Trung Bình</button>
+                    </div>
+                    <div class="card-footer text-muted" id="tinhTB"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Đổi tiền -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header">
+                        CHƯƠNG TRÌNH ĐỔI TIỀN
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="my-input">Nhập số USD bạn muốn đổi</label>
+                            <input id="sotien" class="form-control" type="text" name="">
+                        </div>
+                    </div>
+                    <button class="btn btn-success" id="btnDoiTien">ĐỔI</button>
+                    <div class="card-footer text-muted" id="doitien"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Tính diện tích chu vi hình chữ nhật -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header">
+                        CHU VI VÀ DIỆN TÍCH HÌNH CHỮ NHẬT
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="my-input">Chiều dài</label>
+                            <input id="chieudai" class="form-control" type="text" name="">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-input">Chiều rộng</label>
+                            <input id="chieurong" class="form-control" type="text" name="">
+                        </div>
+                        <button class="btn btn-success" id="btnDienTich">TÍNH DIỆN TÍCH</button>
+                        <button class="btn btn-success" id="btnChuVi">TÍNH CHU VI</button>
+                    </div>
+                    <div class="card-footer text-muted" id="dientich"></div>
+                    <div class="card-footer text-muted" id="chuvi"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Tính tổng 2 kí số -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header">
+                        TỔNG 2 KÍ SỐ
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="my-input">Nhập vào số có 2 chữ số</label>
+                            <input id="number" class="form-control" type="text" name="">
+                        </div>
+                        <button class="btn btn-success" id="btnTinhtong">TÍNH TỔNG</button>
+                    </div>
+                    <div class="card-footer text-muted" id="tong2so"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script src="./main.js"></script>
+</body>
+
+</html>
